@@ -1,0 +1,9 @@
+@mixin mq( $break ) {
+  @if $break == 'tablet' {
+    @media (min-width: $tablet) {
+      @content;
+    }
+  } @else {
+    @error "Oops! Please enter 'tablet' as arguments and try again.";
+  }
+}

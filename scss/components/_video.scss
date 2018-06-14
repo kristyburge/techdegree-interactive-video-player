@@ -1,7 +1,7 @@
 .vid__container {
   margin: 0 0 1.9em;
   padding: 0;
-  @media (min-width: 768px) {
+  @include mq(tablet) {
     margin-top: 3em;
   }
 }

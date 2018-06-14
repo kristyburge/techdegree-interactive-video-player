@@ -1,9 +1,9 @@
 .container {
-  font-family: 'Noto Sans', Arial, Helvetica, Tahoma, sans-serif;
-  font-size: 18px;
+  font-family: $font-stack;
+  font-size: $base__font-size;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.45;
+  line-height: $base__line-height;
 }
 
 .active {
