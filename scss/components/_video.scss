@@ -1,5 +1,13 @@
 .vid__container {
-  margin: 0 auto 1.9em;
+  margin: 0 0 1.9em;
+  padding: 0;
+  @media (min-width: 768px) {
+    margin-top: 3em;
+  }
+}
+
+.vid__player {
+  // max-width: 768px;
 }
 
 .mejs__container {
