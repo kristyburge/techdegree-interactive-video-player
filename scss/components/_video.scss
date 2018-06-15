@@ -6,14 +6,20 @@
   }
 }
 
-.vid__player {
-  // max-width: 768px;
-}
-
 [data-start] {
   cursor: pointer;
 }
 
 .mejs__container {
   margin: 0 auto;
+}
+
+.mejs__controls:not([style*="display: none"]) {
+  background: linear-gradient($progress-bar-light, $progress-bar-dark);
+  @include mq(tablet) {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    height: 3.2em;
+    align-items: center;
+  }
 }
