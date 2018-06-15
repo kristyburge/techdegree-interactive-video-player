@@ -3,5 +3,11 @@ $font-stack: "Noto Sans", Arial, Helvetica, Tahoma, sans-serif;
 $base__font-size: 18px;
 $base__line-height: 1.45;
 
+// Colors
+$white: #fff;
+$tomato: #FF6347;
+$progress-bar-dark: rgba($tomato, 0.7);
+$progress-bar-light: rgba($tomato, 0.4);
+
 // Breakpoints
 $tablet: 768px;
