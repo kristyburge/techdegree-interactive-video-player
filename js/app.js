@@ -1,5 +1,4 @@
-// Configure the video player
-// MediaElementJS
+// Configure the video player - MediaElementJS
 $('.vid__player').mediaelementplayer({
   features: ['playpause', 'progress', 'volume', 'fullscreen'],
   startLanguage: 'en'
@@ -47,5 +46,10 @@ transcript.addEventListener('click', function(event){
 
       // Move the video player to the position of the current span
       myVideo.currentTime = start;
+
+      // If the video is NOT playing already, then play it
+      if (myVideo.paused) {
+        myVideo.play();
+      }
     }
 });
