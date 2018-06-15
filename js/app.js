@@ -5,7 +5,7 @@ $('.vid__player').mediaelementplayer({
 });
 
 // Global Variables
-var mVideo, transcript, span;
+var myVideo, transcript, span;
 myVideo = document.querySelector('video');
 transcript = document.querySelector('.transcript__container');
 span = document.querySelectorAll('.transcript__container span');
